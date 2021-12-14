@@ -5,7 +5,6 @@ import { URL } from 'react-native-url-polyfill';
 import { WebView } from '../components';
 import { CALLBACK_URL, CANVAS_LAUNCHER_URL } from '../config';
 
-// const SERVER_IP = '192.168.1.104'; // IMPORTANT!! Set this to your hosts machines local IP
 const SERVER_IP = 'localhost';
 const SERVER_PORT = 8000;
 
