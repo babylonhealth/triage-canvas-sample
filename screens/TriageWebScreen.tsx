@@ -26,6 +26,15 @@ const TriageWebScreen = ({ navigation }) => {
   const [loading, setLoading] = useState(true);
   const [conf, setConf] = useState<any>();
 
+  /*
+  // IMPORTANT NOTE! - **** PLEASE READ **** !!!!
+  // THIS IS SAMPLE CODE ONLY.
+  // IN AN ACTUAL PRODUCTION SETTING, IT IS CONSIDERED BEST PRACTICE
+  // TO PASS ANY SENSITIVE DATA OVER HTTPS / TLS AT A MINIMUM.
+  // THIS SAMPLE CODE IS INTENDED FOR DEMONSTRATIVE PURPOSES ONLY
+  // AND IS NOT INTENDED FOR ANY REAL / PRODUCTION / HEALTH PURPOSES - AS-IS.
+  */
+
   useEffect(() => {
     const url = `http://${SERVER_IP}:${SERVER_PORT}/tokenInfo`;
     console.info(`url=${url}`);
